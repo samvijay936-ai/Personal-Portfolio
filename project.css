@@ -1,0 +1,531 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scrollbar-width: none;
+  font-family: "Oswald", sans-serif;
+  color: white;
+}
+.nav {
+  width: 100%;
+  padding: 12px;
+  background-color: rgb(0, 0, 0);
+}
+.navbar {
+    padding:0 !important; 
+}
+.nav-link{
+  color: #ffffff !important;
+}
+.navbar-toggler {
+  background-color: white !important;
+}
+
+.navbar-brand {
+    font-size: 35px;
+    color: white !important;
+}
+.collapse {
+  flex-grow: 0 !important;
+  font-size: 30px;
+}
+.navbar-nav {
+  gap: 50px;
+}
+/* hover button */
+
+.nav-link:hover{
+  background-color: yellow;
+}
+
+/* social media icon */
+.icon {
+  padding-top: 15%;
+  padding-left: 2%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 85px;
+  position: absolute;
+}
+.icons {
+  height: 35px;
+  width: 35px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.icon1:hover{
+  color: white;
+  background-color: blue;
+}
+.icon2:hover{
+  color: white;
+  background-color: black;
+}
+.icon3:hover{
+  color: white;
+  background-color: purple;
+}
+.icon4:hover{
+  color:white;
+  background-color: #434fcf;
+}
+
+/* section for projects */
+.sectionprojects{
+    height: 89vh;
+    background-color: rgb(0, 0, 0);  
+}
+.iconprojects{
+    left: 0;
+}
+.topdiv3{
+    height: 50%;
+    display: flex;   
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    padding-right: 269px;
+}
+
+/* top left box1 */
+.topbox1{
+    height: 90%;
+    width: 30%;
+    background-color: hsl(0deg 0% 15.69%);
+    position: relative;
+    padding: 20px;
+}
+.image5{
+    width: 40px;
+    position: absolute;
+    left: 140px;
+    bottom: 290px;
+}
+
+.image6{
+    width: 340px;
+    height: 345px;
+    position: absolute;
+    bottom: -1px;
+    left: 225px;
+    /* animation-name: image;
+    animation-duration: 2s; */
+    /* animation-delay: 0.5; */
+    /* animation-iteration-count: infinite; */
+    /* animation-timing-function: ease-in-out; */
+    
+}
+@keyframes image {
+  from{
+    /* transition: all 2s; */
+    /* transform: rotate(15deg); */
+  }
+  /* to{
+    
+    transform: rotate(-15deg);
+  } */
+}
+
+
+.image7{
+    width: 40px;
+    position: absolute;
+    left: 319px;
+    bottom: 274px;
+}
+
+
+.topbox1 h1{
+    font-size: 56px;
+}
+
+.topbox1>h2{
+    position: absolute;
+    top: 60px;
+    background-color: hsl(0deg 0% 15.69%);
+}
+
+.list1{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+.list1 h3{
+    font-size: 18px;
+}
+
+.list2{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+}
+.list2 h3{
+    font-size: 18px;
+    margin-bottom: 3px;
+}
+.list3{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+}
+.list3 h3{
+    font-size: 22px;
+    margin-bottom: 2px;
+}
+.topbox1>p{
+    width: 238px;
+    font-size: 13px;
+    margin-bottom: 0;
+    margin-left: 31px;
+}
+
+
+/* top right box2 */
+
+.topbox2{
+    height: 90%;
+    width: 30%;
+    background-color: hsl(0deg 0% 15.69%);
+}
+.topbox2{
+    height: 90%;
+    width: 30%;
+    background-color: hsl(0deg 0% 15.69%);
+    position: relative;
+    padding: 20px;
+}
+.image8{
+    width: 40px;
+    position: absolute;
+    left: 140px;
+    bottom: 290px;
+}
+.image9{
+    width: 340px;
+    height: 345px;
+    position: absolute;
+    bottom: -10px;
+    left: 247px;
+}
+.image10{
+    width: 40px;
+    position: absolute;
+    left: 337px;
+    bottom: 263px;
+}
+
+.topbox2 h1{
+    font-size: 56px;
+}
+.topbox2>h2{
+    position: absolute;
+    top: 60px;
+    background-color: hsl(0deg 0% 15.69%);
+}
+
+.topbox2>p{
+    width: 238px;
+    font-size: 13px;
+    margin-bottom: 0;
+    margin-left: 31px;
+}
+/* bottom div  box*/
+.bottomdiv3{
+    height: 50%;
+    display: flex;   
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    padding-left: 177px;
+}
+
+/* left div box3 */
+
+.bottombox3{
+    height: 90%;
+    width: 30%;
+    background-color: hsl(0deg 0% 15.69%);
+    text-align: right;
+}
+.bottombox3{
+    height: 95%;
+    width: 30%;
+    background-color: hsl(0deg 0% 15.69%);
+    position: relative;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.image11{
+    width: 40px;
+    position: absolute;
+    right: 192px;
+    bottom: 305px;
+}
+.image12{
+    width: 380px;
+    height: 380px;
+    position: absolute;
+    bottom: -10px;
+    right: 218px;
+}
+.image13{
+    width: 40px;
+    position: absolute;
+    right: 328px;
+    bottom: 289px;
+}
+
+.bottombox3 h1{
+    font-size: 56px;
+    margin: 0;
+}
+.bottombox3>h2{
+    position: absolute;
+    top: 60px;
+    background-color: hsl(0deg 0% 15.69%);
+    margin: 0;
+}
+
+.bottombox3>p{
+    width: 235px;
+    font-size: 13px;
+    margin-bottom: 0;
+    padding-right: 30px;
+}
+/* right div box3 */
+
+.bottombox4{
+    height: 90%;
+    width: 30%;
+    background-color: hsl(0deg 0% 15.69%);
+    text-align: right;
+}
+.bottombox4{
+    height: 95%;
+    width: 30%;
+    background-color: hsl(0deg 0% 15.69%);
+    position: relative;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+.image14{
+    width: 40px;
+    position: absolute;
+    right: 192px;
+    bottom: 305px;
+}
+.image15{
+    width: 380px;
+    height: 380px;
+    position: absolute;
+    bottom: -10px;
+    right: 207px;
+}
+.image16{
+    width: 40px;
+    position: absolute;
+    right: 309px;
+    bottom: 283px;
+}
+
+.bottombox4 h1{
+    font-size: 56px;
+    margin: 0;
+}
+.bottombox4>h2{
+    position: absolute;
+    top: 60px;
+    background-color: hsl(0deg 0% 15.69%);
+    margin: 0;
+}
+
+.bottombox4>p{
+    width: 235px;
+    font-size: 13px;
+    margin-bottom: 0;
+    padding-right: 30px;
+}
+
+/* ── MOBILE  600px ── */
+@media (max-width: 600px) {
+  .sectionprojects {
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .iconprojects{
+    display: none;
+  }
+  .topdiv3 {
+    height: auto;
+    flex-direction: column;
+    padding-right: 0;
+    gap: 20px;
+    padding: 20px 16px;
+  }
+
+  .bottomdiv3 {
+    height: auto;
+    flex-direction: column;
+    padding-left: 0;
+    gap: 20px;
+    padding: 20px 16px;
+  }
+
+  /* hide decorative pin images — absolute positions break on mobile */
+   .image6{
+        height: 200px;
+        width: 200px;
+        bottom: 124px;
+        left: 112px;
+  }
+  .image9{
+        height: 200px;
+        width: 200px;
+        bottom: 81px;
+        left: 112px;
+  }
+  .image12{
+        height: 200px;
+        width: 200px;
+        bottom: 107px;
+        right: 143px;
+  }
+  .image13{
+        height: 30px;
+        width: 30px;
+        bottom: 256px;
+        left: 62px;
+  }
+    .image15 {
+        height: 200px;
+        width: 200px;
+        bottom: 123px;
+        right: 143px;
+  }
+   .image16 {
+        height: 30px;
+        width: 30px;
+        bottom: 276px;
+        left: 55px;
+  }
+  
+  .image5{
+        height: 30px;
+        width: 30px;
+        left: 88px;
+        bottom: 284px;
+  } 
+  .image7{
+        height: 30px;
+        width: 30px;
+        left: 174px;
+        bottom: 278px;
+  } 
+  .image8{
+        height: 30px;
+        width: 30px;
+        left: 89px;
+        bottom: 240px;
+  } 
+  .image10{
+        height: 30px;
+        width: 30px;
+        left: 176px;
+        bottom: 236px;
+  } 
+ .image11{
+        height: 30px;
+        width: 30px;
+        left: 137px;
+        bottom: 263px;
+  } 
+  .image14{
+        height: 30px;
+        width: 30px;
+        bottom: 281px;
+        left: 136px;
+  } 
+
+  .topbox1,
+  .topbox2 {
+    width: 100%;
+    height: auto;
+    padding: 16px;
+    position: relative;
+  }
+
+  .topbox1 h1,
+  .topbox2 h1 {
+    font-size: 36px;
+  }
+
+  .topbox1 > h2,
+  .topbox2 > h2 {
+    position: relative;
+    top: auto;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .topbox1 > p,
+  .topbox2 > p {
+    width: 100%;
+    font-size: 13px;
+    margin-left: 0;
+  }
+
+  .bottombox3,
+  .bottombox4 {
+    width: 100%;
+    height: auto;
+    padding: 16px;
+    align-items: flex-end;
+  }
+
+  .bottombox3 h1,
+  .bottombox4 h1 {
+    font-size: 36px;
+  }
+
+  .bottombox3 > h2,
+  .bottombox4 > h2 {
+    position: relative;
+    top: auto;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .bottombox3 > p,
+  .bottombox4 > p {
+    width: 100%;
+    font-size: 13px;
+    padding-right: 0;
+  }
+
+  .list1 h3,
+  .list2 h3 {
+    font-size: 15px;
+  }
+
+  .list3 h3 {
+    font-size: 17px;
+  }
+
+  .listpara {
+    font-size: 13px;
+    margin-left: 0;
+  }
+}

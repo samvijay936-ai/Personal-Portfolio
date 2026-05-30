@@ -1,0 +1,239 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scrollbar-width: none;
+  font-family: "Oswald", sans-serif;
+  color: white;
+}
+.nav {
+  width: 100%;
+  padding: 12px;
+  background-color: rgb(0, 0, 0);
+}
+.navbar {
+    padding:0 !important;
+}
+.nav-link{
+  color: #ffffff !important;
+}
+.navbar-brand {
+    font-size: 35px;
+    color: white !important;
+}
+.collapse {
+  flex-grow: 0 !important;
+  font-size: 30px;
+}
+.navbar-toggler {
+  background-color: white !important;
+}
+.navbar-nav {
+  gap: 50px;
+}
+/* hover button */
+
+.nav-link:hover{
+  background-color: yellow;
+}
+
+/* social media icon */
+.icon {
+  padding-top: 15%;
+  padding-left: 2%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 85px;
+  position: absolute;
+}
+.icons {
+  height: 35px;
+  width: 35px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.icon1:hover{
+  color: white;
+  background-color: blue;
+}
+.icon2:hover{
+  color: white;
+  background-color: black;
+}
+.icon3:hover{
+  color: white;
+  background-color: purple;
+}
+.icon4:hover{
+  color:white;
+  background-color: #434fcf;
+}
+
+/* section for contact */
+.sectioncontact{
+    height: 89vh;
+    background-color: rgb(0, 0, 0);  
+    display: flex;
+}
+  /* MAIN SECTION */
+
+    .contact-section{
+      width:85%;
+      margin:auto;
+      display:flex;
+      justify-content:space-between;
+      align-items:flex-start;
+      margin-top:80px;
+    }
+
+    /* LEFT SIDE */
+
+    .left{
+      width:40%;
+      margin-top:20px;
+    }
+
+    .left h1{
+      font-size:60px;
+      margin-bottom:80px;
+      font-weight:700;
+      letter-spacing:2px;
+    }
+
+    .info-box{
+      display:flex;
+      align-items:center;
+      gap:30px;
+      margin-bottom:55px;
+    }
+
+    .info-box i{
+      font-size:55px;
+    }
+
+    .info-box p{
+      font-size:22px;
+      line-height:1.5;
+    }
+
+    /* RIGHT SIDE */
+
+    form{
+      width:52%;
+    }
+
+    .input-box{
+      width:100%;
+      margin-bottom:25px;
+    }
+
+    .input-box input,
+    .input-box textarea{
+      width:100%;
+      border:none;
+      outline:none;
+      background:#d3d3d3;
+      padding:20px 30px;
+      border-radius:35px;
+      font-size:22px;
+      color:#000;
+    }
+
+    .input-box textarea{
+      height:260px;
+      resize:none;
+      border-radius:35px;
+    }
+
+    .btn{
+      border:none;
+      background:#d3d3d3;
+      color:#5a5a5a;
+      padding:20px 50px;
+      border-radius:28px;
+      font-size:26px;
+      font-weight:700;
+      cursor:pointer;
+    }
+    .btn:hover{
+      background-color: wheat;
+    }
+
+
+    /* ── MOBILE 600px ── */
+@media (max-width: 600px) {
+  .sectioncontact {
+    height: auto;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  .contact-section {
+    width: 92%;
+    flex-direction: column;
+    margin-top: 17px;
+    gap: 8px;
+  }
+  .iconcontact{
+    display: none;
+  }
+
+  .left {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .left h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+  }
+
+  .info-box {
+    gap: 14px;
+    margin-bottom: 15px;
+  }
+
+  .info-box i {
+    font-size: 28px;
+  }
+
+  .info-box p {
+    font-size: 14px;
+  }
+
+  form {
+    width: 96%;
+  }
+    
+
+  .input-box {
+    margin-bottom: 16px;
+  }
+
+  .input-box input,
+  .input-box textarea {
+    padding: 18px 20px;
+    font-size: 15px;
+    border-radius: 20px;
+  }
+
+  .input-box textarea {
+    height: 160px;
+    border-radius: 20px;
+  }
+
+  .btn {
+    width: 43%;
+    padding: 16px 0;
+    font-size: 18px;
+    border-radius: 20px;
+    margin: 0;
+  }
+}
